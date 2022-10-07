@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-Jesus Maringá - Nr. 50
+rafaelly segantini - Nr.27
 
 ## Conteúdo
 HTML, CSS e javascript
