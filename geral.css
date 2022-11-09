@@ -1,1 +1,47 @@
 
+#calculadora {
+    background: rgb(219, 117, 134);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+#calculadora input{
+background: darkgrey;
+color: darkslateblue;
+padding: 5px;
+border-radius: 5px;
+}
+#Total {
+    background:rgb(11, 53, 107);
+    color: rgb(58, 191, 201);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#calculadora button {
+    background: rgb(11, 53, 107);
+    color: rgb(58, 191, 201);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#calculadora button:hover {
+    background: rgb(58, 191, 201);
+    color: rgb(11, 53, 107);
+    cursor: pointer;
+}
+
+h3 {
+    color: rgb(9, 83, 148);
+
+}
+.calcF {
+    display: none;
+}
+#input-calcF {
+    display: none;
+}
+#input-calcF:checked + #calculadora .calcF {
+    display: block;
+}
