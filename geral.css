@@ -1,54 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(104, 101, 101);
+}
 #calculadora {
-    background: rgb(169, 172, 171);
+    background-color: rgb(43, 177, 204);
     width: 200px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 5px 5px yellow;
+    box-shadow: 5px 5px rgb(1, 1, 82);
+}
+#calculadoraESG {
+    background-color: rgb(97, 143, 97);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(10, 10, 10);
 }
 .spMes {
     border-color: black;
     border-width: 1px;
     border-style: dashed;
-    background: rgba(168, 115, 35, 0.356);
-    color: red;
+    background-color: rgba(12, 54, 54, 0.541);
+    color: rgb(0, 0, 0);
     text-align: start;
     border-radius: 10px;
     padding: 5px;
     margin-top: 10px;
+    
 }
 #calculadora input:focus{
-    background: rgb(228, 179, 179);
-    color: rgb(0, 0, 0);
+    background: gray;
+    color: white;
+}
+#calculadoraESG input:focus{
+    background: rgb(7, 7, 7);
+    color: white;
+    width: 80px;
 }
 #calculadora input {
-    background: rgb(88, 82, 82);
-    color: rgb(255, 2, 2);
+    background-color: black;
+    color: white;
     padding: 5px;
     border-radius: 5px;
+    
+}
+#calculadoraESG input {
+    background-color: rgb(18, 0, 175);
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    width: 60px;
 }
 #sptotal {
-    background: black;
+    background-color: black;
     color: chartreuse;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #calculadora button {
-    background: chocolate;
-    color: rgb(255, 255, 255);
+    background-color: aquamarine;
+    color: black;
     padding: 5px;
     border-radius: 5px;
     margin-top: 10px;
 }
 #calculadora button:hover{
-    background: rgb(236, 222, 212);
-    color: rgb(0, 0, 0);
+    background-color: white;
+    color: black;
     cursor: pointer;
 }
 h3 {
-    color: rgb(128, 27, 27);
+    color: black;
 }
 .calcF {
     display: none;
@@ -58,4 +86,4 @@ h3 {
 }
 #input-calcF:checked + #calculadora .calcF {
     display: block;
-} 
+}
